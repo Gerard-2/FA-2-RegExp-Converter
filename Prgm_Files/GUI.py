@@ -384,7 +384,7 @@ class RIJK_App:
 
 	"""
 	Resets the scroll region to encompass the inner frame
-	http://stackoverflow.com/questions/3085696/adding-a-scrollbar-to-a-group-of-widgets-in-tkinter
+	From http://stackoverflow.com/questions/3085696/adding-a-scrollbar-to-a-group-of-widgets-in-tkinter
 	"""
 
 	def __On_SSW_Frame_Configure(self, event):	
@@ -394,7 +394,7 @@ class RIJK_App:
 	"""
 	Sets up the Trans Func Window for display
 	Gets what characters are used to move from state to state, if at all
-	http://stackoverflow.com/questions/3085696/adding-a-scrollbar-to-a-group-of-widgets-in-tkinter
+	From http://stackoverflow.com/questions/3085696/adding-a-scrollbar-to-a-group-of-widgets-in-tkinter
 	"""
 
 	def __Create_Trans_Func_Window(self):
@@ -448,7 +448,7 @@ class RIJK_App:
 
 	"""
 	Resets the scroll region to encompass the inner frame
-	http://stackoverflow.com/questions/3085696/adding-a-scrollbar-to-a-group-of-widgets-in-tkinter
+	From http://stackoverflow.com/questions/3085696/adding-a-scrollbar-to-a-group-of-widgets-in-tkinter
 	"""
 
 	def __On_TFW_Frame_Configure(self, event):	
